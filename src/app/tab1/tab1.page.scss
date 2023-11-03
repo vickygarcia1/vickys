@@ -1,0 +1,25 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    align-content: center;
+    
+    
+}
+section a{
+    position: relative;
+    border-radius: 10px;
+    padding: 80px 0px;
+    text-align: center;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    span{
+        display: block;
+        width: 100%;
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+        position: absolute;
+    }
+}

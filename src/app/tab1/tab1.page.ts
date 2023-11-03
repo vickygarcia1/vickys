@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Categoria } from '../core/interfaces/categoria';
+import { CATEGORIA } from '../core/interfaces/constants/categoria';
 
 @Component({
   selector: 'app-tab1',
@@ -6,7 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-
-  constructor() {}
-
+/*arrays de string (sirven para saber del error antes de ejecutar)*/
+  categorias:Categoria[]= CATEGORIA
 }
